@@ -1,0 +1,108 @@
+/* 
+    Document   : profile_format
+    Created on : August 19, 2012, 10:50:25 AM
+    Author     : Gacheru Evans
+    Description:
+	Purpose of the stylesheet follows.
+*/
+
+/* 
+   TODO customize this sample style
+Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+div.scroll
+{
+position: relative;
+background-color:#ffffff;
+width:1200px;
+overflow:auto;
+}
+div#form_header{
+	
+        margin: 0 auto;
+	position: relative;
+	width: 950px;
+}
+.form_header{
+	font-family:sans-serif;
+	font-size: 12px;
+	border-collapse:collapse;
+        text-shadow: 0px 0px 1px #c0c0c0;
+	line-height: 25px;
+	
+}
+.form_header tr{
+	border-bottom: 1px solid #bfbfbf; 
+}
+
+
+.list_header{
+	font-family:sans-serif;
+	font-size: 12px;
+	border-collapse:collapse;
+        text-shadow: 0px 0px 1px #c0c0c0;
+	line-height: 25px;
+	color: #000000;
+}
+.list_view_header{
+	font-family:sans-serif;
+	font-size: 12px;
+	border-collapse:collapse;
+        text-shadow: 0px 0px 1px #c0c0c0;
+	line-height: 25px;
+	color: #000000;
+}
+.list_view_header tr{
+	border-bottom: 2px solid #ddddff;
+	border-top: 2px solid #ececff;
+}
+
+div#analysis_request{
+	
+        margin: 0 auto;
+	position: relative;
+	width: 100%;
+	top:40px;
+	border: 1px solid #ddddff; /*Gray*/
+}
+div#equipment_table_form{
+	border-radius: 2px 4px 4px 4px / 4px 4px 4px 4px;
+	border-radius: 6px;
+	border-radius: 4px 4px / 4px;
+        margin: 0 auto;
+	position: relative;
+	right:0px;
+	width: 950px; 
+}
+.equipment_table_form{
+	font-family:sans-serif;
+	font-size: 12px;
+        text-shadow: 0px 0px 1px #c0c0c0;
+	line-height: 25px;
+	color: #000000;
+}
+.analysis_request{
+	font-family:sans-serif;
+	font-size: 12px;
+        text-shadow: 0px 0px 1px #c0c0c0;
+	line-height: 25px;
+	color: #000000;
+}
+.table_form{
+	
+	border-radius: 4px;
+	background-color:#ffffff ;
+	font:14px/1.2 'Sans-Serif',Arial,Segoe UI ;
+	border: 0px solid #ddddff;
+	-webkit-box-shadow:  0px 5px 15px #888888;
+       -moz-box-shadow:  0px 5px 15px #888888;
+            box-shadow:  0px 5px 15px #888888;
+	
+}
+.table_header{
+    border-collapse:collapse;
+}
+.inner_table{
+    border-collapse:collapse;
+    background-color: #e5e7ff;
+}
